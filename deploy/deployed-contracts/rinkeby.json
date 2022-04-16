@@ -1,0 +1,17 @@
+{
+  "globals": "0x4a2522bd17ad468071922b6e29da5313afd5a8f7",
+  "tokenDistributor": "0xb80b3c2ccbb466e844728e941bbc5670ce9ec96d",
+  "seaportExchange": "0x00000000006c3852cbef3e08e8df289169ede581",
+  "proposalEngineImpl": "0x1a51adf9fad28113c095a0908049a3f2ab8a049d",
+  "partyImpl": "0xd4c44487fdc82bc97bbdd0faa15226e1fb4265e6",
+  "partyFactory": "0x2348d4dee649768e6941383e6aeba41330e8d787",
+  "auctionCrowdfundImpl": "0xa4c4e1d4c9dcaf4b2aa28a8aef1f91ba66d25bcb",
+  "buyCrowdfundImpl": "0x00d03cfb427eaf0b0ca4a9818dd983596f7c1e66",
+  "collectionBuyCrowdfundImpl": "0xc8442aa3560a2f8b26cf05468512b37e79a6fa31",
+  "partyCrowdfundFactory": "0xa4025c4ebadedc54f4ecc6381a9feed20ff834ad",
+  "partyCrowdfundNFTRenderer": "0x61b81858da64e9a20ef930e2d32e96cbdc9db11c",
+  "partyGovernanceNFTRenderer": "0x74de952aad5b1b297543dca10bd096ba244b0212",
+  "partyHelpers": "0x7e545e9328b891ee92848fc77d8bfee52f0cc0cf",
+  "allowListGateKeeper": "0xd8f624f12f97bdf6b3f2d09e62ddc96a30b24441",
+  "tokenGateKeeper": "0xbada0cf0ea9e7989c392c4b830c750e137fcac36"
+}
