@@ -5,7 +5,7 @@ library LibDeployConstants {
   uint256 internal constant PARTY_DAO_DISTRIBUTION_SPLIT_BPS = 250;
 
   struct DeployConstants {
-    address[5] adminAddresses; // todo: change size of array based on deploy
+    address[3] adminAddresses; // todo: change size of array based on deploy
     address seaportExchangeAddress;
     uint256 osZoraAuctionDuration;
     uint256 osZoraAuctionTimeout;
@@ -27,11 +27,14 @@ library LibDeployConstants {
   function rinkeby() internal pure returns (DeployConstants memory) {
     DeployConstants memory rinkebyDeployConstants = DeployConstants({
       adminAddresses: [
-        0x8fDC86689f5F35F2b4d9f649c7bdc9C64f59e6bD,
-        0x66512B61F855478bfba669e32719dE5fD7a57Fa4,
-        0x678e8bd1D8845399c8e3C1F946CB4309014456a5,
-        0xcAAAE655D431bdDB3F2f20bd31BC629928131582,
-        0xc424f13e0aC6c0D5C1ED43e73A5771a2356e898d
+          0x545E957C654bA1Ada3C58dA2c2C881BC2c416fB6,
+          0x4543ccC69176C2c749813313601931875Cb871Cd,
+          0x858013142255cad3FD5137bDf4a7A40348Cb4D4a
+        // 0x8fDC86689f5F35F2b4d9f649c7bdc9C64f59e6bD,
+        // 0x66512B61F855478bfba669e32719dE5fD7a57Fa4,
+        // 0x678e8bd1D8845399c8e3C1F946CB4309014456a5,
+        // 0xcAAAE655D431bdDB3F2f20bd31BC629928131582,
+        // 0xc424f13e0aC6c0D5C1ED43e73A5771a2356e898d
       ],
       seaportExchangeAddress: 0x00000000006c3852cbEf3e08E8dF289169EdE581,
       osZoraAuctionDuration: 2 minutes,
@@ -57,11 +60,14 @@ library LibDeployConstants {
   function goerli() internal pure returns (DeployConstants memory) {
     DeployConstants memory rinkebyDeployConstants = DeployConstants({
       adminAddresses: [
-        0x8fDC86689f5F35F2b4d9f649c7bdc9C64f59e6bD,
-        0x66512B61F855478bfba669e32719dE5fD7a57Fa4,
-        0x678e8bd1D8845399c8e3C1F946CB4309014456a5,
-        0xcAAAE655D431bdDB3F2f20bd31BC629928131582,
-        0xc424f13e0aC6c0D5C1ED43e73A5771a2356e898d
+          0x545E957C654bA1Ada3C58dA2c2C881BC2c416fB6,
+          0x4543ccC69176C2c749813313601931875Cb871Cd,
+          0x858013142255cad3FD5137bDf4a7A40348Cb4D4a
+        // 0x8fDC86689f5F35F2b4d9f649c7bdc9C64f59e6bD,
+        // 0x66512B61F855478bfba669e32719dE5fD7a57Fa4,
+        // 0x678e8bd1D8845399c8e3C1F946CB4309014456a5,
+        // 0xcAAAE655D431bdDB3F2f20bd31BC629928131582,
+        // 0xc424f13e0aC6c0D5C1ED43e73A5771a2356e898d
       ],
       seaportExchangeAddress: 0x00000000006c3852cbEf3e08E8dF289169EdE581,
       osZoraAuctionDuration: 2 minutes,
